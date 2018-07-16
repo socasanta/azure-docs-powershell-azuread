@@ -1,0 +1,47 @@
+{
+  "homepages": [],
+  "xrefmap": [
+    "azureadps-1.0.xrefmap.yml",
+    "azureadps-2.0.xrefmap.yml",
+    "azureadps-2.0-preview.xrefmap.yml"
+  ],
+  "files": [],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {
+    "azureadps-1.0": {
+      "version_folder": "azureadps-1.0/"
+    },
+    "azureadps-2.0": {
+      "version_folder": "azureadps-2.0/"
+    },
+    "azureadps-2.0-preview": {
+      "version_folder": "azureadps-2.0-preview/"
+    }
+  },
+  "groups": [
+    {
+      "name": "azureadps-1.0",
+      "dest": "azureadps-1.0",
+      "xrefmap": "azureadps-1.0.xrefmap.yml"
+    },
+    {
+      "name": "azureadps-2.0",
+      "dest": "azureadps-2.0",
+      "xrefmap": "azureadps-2.0.xrefmap.yml"
+    },
+    {
+      "name": "azureadps-2.0-preview",
+      "dest": "azureadps-2.0-preview",
+      "xrefmap": "azureadps-2.0-preview.xrefmap.yml"
+    }
+  ]
+}
